@@ -30,7 +30,7 @@
 
 <!-----Navigation menu------->
 <div id = "nav">
-      <ul>
+  <ul>
 	<li>About Us
 	  <ul class="dropdown">
 	    <div><li><a href="about.html">About Us</a></li></div>
