@@ -10,8 +10,6 @@
   		margin-left: auto;
   		margin-right: auto;
 		overflow: hidden;
-		height: auto;
-		max-height: 250px;
 
 	@media (max-width: 320px) {
 		width: 100% !important;
@@ -62,13 +60,16 @@
   color: #25653d;
   margin-left: 2.5%;
   margin-top: 1%;
+  line-height:1.25;
   padding-bottom:1%;
 }
 
 .caption_title {
   font-size: 25px;
   margin-top: 1%;
+  margin-bottom: 3%;
   margin-left: 2.5%;
+  line-height: 1.25;
   font-family: Georgia;
   color: #850000;
 }
@@ -158,17 +159,18 @@ height: 50px;
 .rect_heading {
   color: #25653d;
   font-size: 18px;
+  font-weight: bold;
+  padding-top: 5%;
   font-family: Georgia;
   text-align: center;
   text-decoration: underline;
 }
 
 .rect_divider {
-  width: 1.5px;
+  width: 1px;
   height: 80%;
   display: inline-block;
-  float: left;
-  margin-top: 2.5%;
+  float: right;
   background-color: #d9b31c;
 }
 

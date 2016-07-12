@@ -9,18 +9,19 @@
     <link rel="stylesheet" type="text/css" href="css/foundation.css"/>
     <link rel="stylesheet" type="text/css" href="css/app.css"/>
     <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link rel="stylesheet" type="text/css" href="sliderstyles.css"/>
     <link rel="icon" type="image/png" href="affordable_celtic_heart.png"/>
     
   </head>
   <body>
-    <!-- Beginning of centered content body -->
+    <!-- CENTERED BODY SECTION -->
     <div class="row">
       <div class="medium-10 medium-centered columns containerBody" style="padding-left: 0; padding-right: 0"  id="container">
 	
 	<!-- Decorative yellow top bar of Affordable page -->
 	<div id="top"></div>
 
-	<!-- Header -->
+	<!-- HEADER SECTION -->
 	<div class="header">
 	  <div class="row">
 	    <div class="medium-3 columns" id="headerSection">
@@ -94,46 +95,108 @@
 	</div>
 	<!-- End of top dropdown nav menu -->
 
-	<!-- Start of content well section of body -->
+	
+
+	<!-- CONTENT WELL SECTION -->
 
 	<!-- Image slideshow -->
 	<div class = "row">
 	  <div class="medium-9 columns">
-	    <div class="orbit" id="slider" role="region" aria-label="Favorite Space Pictures" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
-	      <ul class="orbit-container" style="height: 100%;">
-		<div style="width: 40%; margin: 0; float: left;">
-		  <p>Serving Families for Over 40 Years</p>
-		</div>
-		<li class="is-active orbit-slide" style="height:100%; width: 60%;float:right;">
-		  <img class="orbit-image" src="affordable_medical_slider1.PNG" alt="Affordable Medical serving families for over 40 years" style="height 100%;"/>
-		</li>
-		<li class="orbit-slide" style="height: 100%; width:60%; float:right;">
-		  <img class="orbit-image" src="image1.jpg" style="height: 100%;"/>
-		</li>
-		<li class="orbit-slide" style="height: 100%; width: 60%; float: right;">
-		  <img class="orbit-image" src="generationspic.jpg" style="height: 100%"/>
-		</li>
-	      </ul>
-	      <nav class="orbit-bullets">
-		<button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
-		<button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
-		<button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
-	      </nav>
+	    <div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="affordable_medical_slider1.PNG" class = "three_quarter_img">
+    <div class="text"><p class = "caption_title">Serving Families for Over 40 Years!</p>
+	<div id = "underline"></div>
+	<p class = "caption">Welcome to Affordable Medical Supply where every customer is important to us. Our trained and supportive staff can help you find the right medical equipment and supplies to fit your needs when you need it.
+
+At Affordable Medical, it is all about heart, trust, and safety.</p>	
+    </div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="image1.jpg" class = "three_quarter_img">
+    <div class="text"><p class = "caption_title">Visit Our Store!</p>
+	<div id = "underline"></div>
+	<p class = "caption">Our large showroom, located in Broward County,
+ provides medical equipment and medical supplies when you need it. 
+Our in-store certified experts keep up to date on new equipment, diseases, 
+disabilities, and insurance to provide you with the knowledge you need to 
+make informed decisions. Every person who calls or walks through our 
+doors receives our personal attention. </p>
+	</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <img src= "generationspic.jpg" class = "three_quarter_img">
+    <div class="text">
+      <p class = "caption_title">
+	  Generations Have Come to Rely On Our Services</p>
+	<div id = "underline"></div>
+	<p class = "caption">Affordable Medical Supply has a clear and 
+	  compelling mission to provide outcome-focused, customer-driven solutions
+	  to beneficiary and family medical needs.  Our organization is committed 
+	  to ensuring that every customer receives consistent and reliable services, 
+	  innovative solutions and superior care management. </p>
+    </div>
+  </div>
+	    </div>
+	    
+	    <script type="text/javascript" src="sliderjs.js"></script>
 	      <!-- End of slideshow -->
 
 	      <!-- Beginning of content well bottom menu boxes -->
-
+	      <div class = "bottom_rectangles">
+		<div class="row" style="margin: 0">
+		  <div class="medium-3 columns" style="padding:0">
+		    <h2 class = "rect_heading"><a href = "visit.html">Visit Our Store</h2></a>
+		    <a href = "visit.html">
+		      <img src = "visitimage3.jpg" class = "rect_image"></img></a>
+		    <div class = "rect_divider"></div>
+		  </div>
+		  <div class = "medium-3 columns" style="padding:0;">
+		    <h2 class = "rect_heading"><a href = "rentals.html">Rentals</a></h2>
+		    <a href = "rentals.html"><img src = "rentals.jpg" class = "rect_image"></img></a>
+		    <div class = "rect_divider"></div>
+		  </div>
+		  <div class = "medium-3 columns" style="padding:0;">
+		    <h2 class = "rect_heading"><a href = "repairs.html">Repairs</a></h2>
+		    <a href = "repairs.html">
+		      <img src = "certifiedrepair.JPG" class = "rect_image"></img></a>
+		    <div class = "rect_divider"></div>
+		  </div>
+		  <div class = "medium-3 columns" style="padding:0">
+		    <h2 class = "rect_heading"><a href = "pay.html">Pay It Forward</a></h2>
+		    <a href = "pay.html"><img src = "payitflower.png" class = "rect_image"></img></a>
+		  </div>
+		</div>
+	      </div>
 	      <!-- End of content well bottom menu boxes -->
+
+	      <!-- White content well divider -->
+	      <div id="content_well_divide"></div>
+	      <p class="content_well_text" style="font-style: italic; text-align: center; margin-top: 5%;">When you need medical supplies or medical equipment, you need Affordable Medical.</p>
+	      </br>
+	      <p class="content_well_text">
+	      We are a full service medical equipment and medical supply company specializing in the rental, sale, and repair of a wide variety of medical equipment. Each customer is important to us. We take time to help each customer find any medical supplies to fit their needs when they need it. (Same day delivery or within 24 hours.)
+	      </br>
+	      </br>
+	      Our community is important to us and we care about our customers, their families, the caregiver, and their comfort and safety. At Affordable Medical, it is all about heart, trust, and safety.</p>
 	      
-	    </div>
+	      <!-- Content -->
 	  </div>
-	  <!-- End of content well -->
+	  <!-- END OF CONTENT WELL -->
 
 	  <!-- Beginnning of right side navigation boxes -->
+	  <div class="medium-3 columns" style="padding-top: 1%; padding-left: 0;">
+	    <div class="right_nav_box">
+	      <p class="right_menu">Featured Products</p>
+	    </div>
+	  </div>
+	  
+	  <!-- End right side navigation boxes -->
 	</div>
-	
-	<p>Affordable Medical Supply is a...</p>
       </div>
+      <!-- END OF BODY -->
     </div>
 
     

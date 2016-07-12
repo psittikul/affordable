@@ -76,14 +76,47 @@ body{
 
 /*Content well styles*/
 
-#slider {
-    height: 50% !important;
+
+/*Slider styles*/
+.slideshow-container {
+    height: 45% !important;
 }
 
-#slider img {
+.three_quarter_img {
     -webkit-mask-image:-webkit-gradient(linear, left top, right top, 
 					color-stop(5%, rgba(255,242,190,0)),color-stop(10%, rgba(255,242,190,.35)),
 					color-stop(15%, rgba(255,242,190,.80)),color-stop(20%, rgba(255,242,190,.95)), 
 					color-stop(80%, rgba(255,242,190,.90)),color-stop(87%, rgba(255,242,190,.95)), 
-			color-stop(95%, rgba(255,242,190,1)));
+					color-stop(95%, rgba(255,242,190,1)));
+    width:60%;
+    float: right;
+    height: 100%;
+}
+
+.caption_section {
+    width: 40%;
+    margin: 0;
+    float: left;
+}
+
+.caption_title {
+    font-size: 25px;
+    margin-left: 2.5%;
+    font-family: Georgia;
+    color: #850000;
+}
+
+/*Right Navigation Menu Styles*/
+.right_nav_box {
+    width: 94%;
+    height: 45%;
+    background-color: #f2d86f;
+    height: 25%;
+}
+
+.right_menu {
+    color: #850000;
+    font-family: Georgia;
+    font-size: 1.8em;
+    text-decoration: underline;
 }
