@@ -70,7 +70,6 @@ body{
     display: none;
     position: initial;
     z-index: 10000;
-    transition: all linear 0.25s;
 }
 
 #nav ul li:hover {

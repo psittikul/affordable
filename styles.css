@@ -6,7 +6,11 @@ a:hover {
     color: inherit;
 }
 
-#container {
+.menu {
+    transition: display 0.2s ease;
+}
+
+#Container {
     clear: both;
     margin-top: 2%;
     padding-bottom: 5%;
@@ -62,6 +66,9 @@ body{
 #nav a:after {
     border-style: none;
 }
+.is-dropdown-submenu {
+    transition: display 0.25s ease;
+}
 
 #subDropdown {
     background-color: #25653d;
@@ -69,6 +76,7 @@ body{
     border: none;
     top: 99% !important;
 }
+
 
 #subDropdown a:hover {
     background-color: #2e7d4c;
