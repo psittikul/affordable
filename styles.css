@@ -51,6 +51,7 @@ body{
     margin-right: 3%;
 }
 
+
 /*Top navigation menu styles*/
 #nav {
     font-family: Verdana;
@@ -178,6 +179,7 @@ body{
     float: left;
     min-height: 70em;
     overflow: auto;
+    padding-bottom: 5%;
 }
 
 .content_well h3 {
@@ -201,4 +203,12 @@ body{
 
 .content_well a {
     color: #25653d;
+}
+
+#statement {
+    font-family: Verdana;
+    color: #d9b31c;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em;
 }
