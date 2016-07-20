@@ -6,30 +6,11 @@ a:hover {
     color: inherit;
 }
 
-.no-js [data-responsive-menu] ul {
-    display: none;
-}
-
-#nav #subDropdown {
-    display: block;
-    overflow: hidden;
-    max-height: 0;
-    opacity: 0;
-    transition: max-height .65s, opacity .5s;
-}
-
-#nav ul li:hover #subDropdown {
-    max-height: 500px;
-    opacity: 1;
-    transition: max-height 0.35s, opacity .5s;
-}
-
-
 
 #Container {
     clear: both;
-    margin-top: 2%;
     padding-bottom: 5%;
+    margin-bottom: 1%;
     background-color: #FFF2BF;
 }
 
@@ -99,6 +80,24 @@ body{
     transition: background-color 0.75s ease;
 }
 
+.no-js [data-responsive-menu] ul {
+    display: none;
+}
+
+#nav #subDropdown {
+    display: block;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height .65s, opacity .5s;
+}
+
+#nav ul li:hover #subDropdown {
+    max-height: 500px;
+    opacity: 1;
+    transition: max-height 0.35s, opacity .5s;
+}
+
 
 /*Content well styles*/
 
@@ -134,10 +133,16 @@ body{
 
 /*Right Navigation Menu Styles*/
 .right_nav_box {
-    width: 94%;
-    height: 45%;
     background-color: #f2d86f;
     height: 25%;
+    padding: 2% 2.5% 2.5% 2.5%;
+    margin-top: 5%;
+    float: none !important;
+}
+
+.inner_border {
+    border: 2px solid #ffffff;
+    height: 100%;
 }
 
 .right_menu {
@@ -145,4 +150,22 @@ body{
     font-family: Georgia;
     font-size: 1.8em;
     text-decoration: underline;
+    padding: 1%;
+    margin-bottom: 0;
+}
+
+.right_menu_text {
+    font-size: 1.3em;
+    color: #25653d;
+    font-family: Verdana;
+    max-width: 95%;
+    margin: auto;
+    min-height: 55%;
+}
+
+.read_more {
+    max-width: 40%;
+    float: right;
+    padding-right: 3%;
+    padding-top: 2%;
 }
