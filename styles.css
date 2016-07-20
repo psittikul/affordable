@@ -169,3 +169,11 @@ body{
     padding-right: 3%;
     padding-top: 2%;
 }
+
+.content_well{
+    background-color: #ffffff;
+    float: left;
+    min-height: 60em;
+    overflow: auto;
+    padding-bottom: 4em;
+}
