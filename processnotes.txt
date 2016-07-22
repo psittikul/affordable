@@ -1,0 +1,5 @@
+9:08 PM: Changed incontinence left navigation to match order of top navigation and be on all necessary pages
+
+9:11 PM: Changed categorypage.css "nav ul li { cursor: pointer}"
+
+9:17 PM: Changed categorypage.css image style

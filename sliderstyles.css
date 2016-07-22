@@ -175,7 +175,14 @@ height: 50px;
 }
 
 .rect_image {
+<<<<<<< HEAD
   width: 90%;s
   margin-left: 5%;
   height: 123px;
+=======
+  width: 90%;
+  margin-left: 5%;
+  height: 123px;
+  border: 1px solid #25653d;
+>>>>>>> c09acc21e94b38c9c5546a4bdc40052debfdc5a3
 }

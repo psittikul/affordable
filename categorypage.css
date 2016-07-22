@@ -1,0 +1,326 @@
+html{
+    min-height: 100%;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+body{
+    background-image: url(dark_embroidery.png);
+    font-size: 62.5%;
+    min-height: 100%;
+}
+
+#top{
+    width: 100%;
+    background-color: #d9b31c;
+    background: linear-gradient(#d9b31c, #b8991d);
+    margin: auto;
+    padding-top: 40px;
+}
+
+#Container{
+    width: 75%;
+    min-height: 100%;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    background-color: #FFF2BF;
+    overflow: auto;
+}
+
+#content_well{
+    background-color: #ffffff;
+    width: 75%;
+    float: left;
+    margin-left: 1em;
+    min-height: 60em;
+    overflow: auto;
+    padding-bottom: 2em;
+}
+
+.one_quarter{
+    width: 24%;
+    height: 50%;
+    float: right;
+}
+
+.topmost{
+    margin-top: 1em;
+}
+
+.right_nav_box{
+    width: 92%;
+    height: 45%;
+    background-color: #f2d86f;
+    float: right;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.inner_border{
+    background-color: #fsd86f;
+    border: 2px solid #ffffff;
+    height: 125px;
+    margin: .5em;
+}
+
+.right_menu{
+    color: #850000;
+    font-family: Georgia;
+    font-size: 1.8em;
+    margin-left: .25em;
+    margin-top: .35em;
+    text-decoration:underline;
+}
+
+.right_menu_text{
+    font-size: 1.3em;
+    color: #25653d;
+    font-family: Verdana;
+    margin-left: .25em;
+    margin-right: .25em;
+    margin-top: -1.2em;
+    max-width: 90%;
+    max-height: 100%;
+}
+
+#seal{
+    width: 12%;
+    height: auto;
+    margin-top: 4.5%;
+    margin-left: 42%;
+    z-index: 0;
+    position: absolute;
+}
+
+#contact{
+    text-align: right;
+    float: right;
+    clear: both;
+    color: #25653d;
+    font-family: Verdana;
+    font-size: 1.6em;
+    margin-right: 3%;
+}
+
+#logo{
+    height: 25%;
+    width: 25%;
+}
+
+#nav{
+    font-family: Verdana;
+    background-color: #25653d;
+    background: linear-gradient(#25653d, #205434);
+    color: #FFFFFF;
+    height: 30px;
+    font-size: 1.6em;
+}
+
+#nav ul{
+    padding-top: .5%;
+}
+
+#nav ul li{
+    display: inline-block;
+    margin-right: 5%;
+    cursor: pointer;
+}
+
+.dropdown{
+    display: none;
+    background: #25653d;
+}
+
+#nav li:hover{
+    background: #2e7d4c;
+}
+
+#nav li:hover .dropdown{
+    display: block;
+    color: #ffffff;
+    position: absolute;
+    width: 15%;
+    white-space: nowrap;
+    padding-right: 1.5em;
+}
+
+
+#nav ul .dropdown li{
+    display: block;
+    min-width: 100%;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+#nav ul li .dropdown div{
+    display: block;
+    width: 100%;
+    height: 100%;
+    align: left;
+    padding-right: 3em;
+    margin-left: -2.5em;
+    padding-left: 1em;
+    margin-top: -0.35em;
+}
+
+.pagetitle{
+  font-family: Georgia;
+  margin-left: 2%;
+  color: #850000;
+  font-size: 2em;
+}
+
+.body_headers{
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  border-bottom-color: #d9b31c;
+  display: block;
+  color:#25653d;
+  margin-left: 1em;
+}
+
+#about_text{
+  font-family: Verdana;
+  width: 94%;
+  margin:auto;
+  margin-top: 3%;
+  font-size: 1.3em;
+}
+
+.topmost .read_more{
+  height: 20%;
+  float: right;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+
+.second_box .read_more{
+  float: right;
+  margin-right: 5%;
+  margin-top: 8%;
+  height: 20%;
+}
+
+.third_box .read_more{
+  float: right;
+  margin-right: 5%;
+  margin-top: 2%;
+  height: 20%;
+}
+
+.fourth_box .read_more{
+  float: right;
+  margin-right: 5%;
+  margin-top: 8%;
+  height: 20%;
+}
+#nav ul li:hover .dropdown div:hover{
+    background: #2e7d4c;
+}
+
+.category_nav{
+  font-family: Verdana;
+  font-size: 1.3em;
+  white-space: nowrap;
+  background-color: #FAF5D7;
+  width: auto;
+  float: left;
+  margin-left: 1em;
+  min-width: 26%;
+}
+
+.categories{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.categories li{
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  border-bottom-color: #d9b31c;
+  list-style-type: none;
+  padding: .35em;
+}
+
+.categories li:hover{
+  background-color: #f2d86f;
+}
+
+.categorytext img{
+  width: 35em;
+  padding-bottom: 2em;
+  margin-left: 45px;
+}
+
+.categorytexti img{
+  float: right;
+  padding-right: 2em;
+  width: 35em;
+  padding-bottom: 2em;
+}
+
+.wrapper_links{
+  min-width: 15%;
+  overflow: auto;
+}
+
+.linkslist{
+  font-family: Verdana;
+  width: 85%;
+  margin: 0px;
+  color: #25653d;
+  padding-top: 1em;
+  padding-left: 5em;
+  padding-bottom: 1em;
+}
+
+.categorytext{
+  font-family: Verdana;
+  padding-left: 0;
+  float: right;
+  width: 67%;
+  margin: 0px;
+  padding-right: 1.3em;
+  font-size: 1.3em;
+}
+
+.categorytexti{
+  font-family: Verdana;
+  padding-left 0;
+  float: right;
+  width: 67%;
+  margin: 0px;
+  padding-right: .5em;
+  font-size: 1.3em;
+}
+
+.categorytextbody{
+  font-family: Verdana;
+  width: 96%;
+  float: right;
+  text-align: justify;
+  margin: 0px;
+}
+
+#healthdictionary{
+  background-color: #FAF5D7;
+  border-color: #d9b31c;
+  border-width: thin;
+  margin-bottom: 2em;
+}
+
+
+.categorytextbody a{
+  color: #25653d;
+}
+.categorytext ul{
+  color: #25653d;
+  font-family: Verdana;
+}
