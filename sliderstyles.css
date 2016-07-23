@@ -132,7 +132,7 @@ height: 50px;
 .bottom_rectangles {
   max-width: 100%;
   background-color: #FFFFFF;
-  height: 200px;
+  height: 40%;
 }
 
 #content_well_divide {
@@ -175,14 +175,32 @@ height: 50px;
 }
 
 .rect_image {
-<<<<<<< HEAD
-  width: 90%;s
-  margin-left: 5%;
-  height: 123px;
-=======
-  width: 90%;
-  margin-left: 5%;
-  height: 123px;
-  border: 1px solid #25653d;
->>>>>>> c09acc21e94b38c9c5546a4bdc40052debfdc5a3
+    width: 90%;
+    margin-left: 5%;
+    height: 80%;
+    padding-top: 10%;
+}
+
+.rect_card {
+    width: 90%;
+    height: 75%;
+    box-shadow: #888888 1px 2px 2px 1px;
+    margin-top: 15%;
+    margin-left: 5%
+}
+
+.rect_card_title {
+    width: 10%;
+    height: 5%;
+    margin-top: 12%;
+    margin-left: 5%;
+    position: absolute;
+}
+
+.rect_card_title h3 {
+    font-size: 16px;
+    font-family: Verdana;
+    color: white;
+    text-align: center;
+    padding-top: 3%;
 }
